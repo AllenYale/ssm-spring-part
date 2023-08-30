@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="482f4f03-4dc4-43a8-992a-b9ddcf2b2097" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/java/com/atguigu/test/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/java/com/atguigu/test/HelloTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +31,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$PROJECT_DIR$/../../dev_tools/maven_local_rep" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../dev_tools/apache-maven-3.9.4" />
-        <option name="userSettingsFile" value="$PROJECT_DIR$/../../dev_tools/apache-maven-3.9.4/conf/settings.xml" />
+        <option name="localRepository" value="E:\dev_tools\local_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../dev_tools/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="E:\dev_tools\apache-maven-3.8.6\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -55,8 +54,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "spring.configuration.checksum": "9dc929caa93d10c76ff64e7e6c472018"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "731657a852113133122516d0d282c913",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
@@ -89,6 +96,7 @@
       <updated>1693299418034</updated>
       <workItem from="1693299419585" duration="6538000" />
       <workItem from="1693358620194" duration="2699000" />
+      <workItem from="1693409345228" duration="307000" />
     </task>
     <servers />
   </component>
