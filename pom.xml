@@ -34,6 +34,35 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.3.1</version>
         </dependency>
+
+        <!-- 数据库驱动和连接池-->
+        <!--mysql依赖-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.25</version>
+        </dependency>
+        <!--druid依赖-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.8</version>
+        </dependency>
+        <!--jdbcTemplate依赖-->
+        <!-- spring-jdbc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>6.0.6</version>
+        </dependency>
+
+        <!--JSR标准：@Resource依赖-->
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
     </dependencies>
 
 </project>
