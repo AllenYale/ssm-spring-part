@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring-ioc-xml-01</module>
+        <module>spring-aop-annotation-09</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -33,6 +34,15 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.3.1</version>
+        </dependency>
+        <!--整合测试环境作用
+    好处1：不需要自己创建IOC容器对象了
+    好处2：任何需要的bean都可以在测试类中直接享受自动装配-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>6.0.6</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- 数据库驱动和连接池-->
@@ -61,6 +71,13 @@
             <groupId>jakarta.annotation</groupId>
             <artifactId>jakarta.annotation-api</artifactId>
             <version>2.1.1</version>
+        </dependency>
+
+        <!--spring aop依赖，spring整合aspectj框架的注解-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>6.0.6</version>
         </dependency>
 
     </dependencies>

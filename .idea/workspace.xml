@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="482f4f03-4dc4-43a8-992a-b9ddcf2b2097" name="Changes" comment="">
+    <list default="true" id="482f4f03-4dc4-43a8-992a-b9ddcf2b2097" name="Changes" comment="添加mysql、druid、jdbcTemplate、resource依赖；修改gitignore文件">
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-09/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-09/src/main/java/com/atguigu/proxyTest/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-09/src/main/java/com/atguigu/proxyTest/CalculatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-09/src/main/java/com/atguigu/proxyTest/statics/CalculatorStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-09/src/test/java/com/atguigu/proxyTest/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/java/com/atguigu/test/HelloTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-xml-01/src/main/java/com/atguigu/test/HelloTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,9 +39,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\dev_tools\local_repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../dev_tools/apache-maven-3.8.6" />
-        <option name="userSettingsFile" value="E:\dev_tools\apache-maven-3.8.6\conf\settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../dev_tools/maven_local_rep" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../dev_tools/apache-maven-3.9.4" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../dev_tools/apache-maven-3.9.4/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -43,7 +51,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2UeUDFoX19kctGnRKF1aV75yyvI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -54,19 +64,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "731657a852113133122516d0d282c913",
-    "vue.rearranger.settings.migration": "true"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "spring.configuration.checksum": "9dc929caa93d10c76ff64e7e6c472018"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Test.test01_static_proxy_test">
     <configuration name="HelloTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.HelloTest" />
       <module name="spring-ioc-xml-01" />
@@ -80,8 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test.test01_static_proxy_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-aop-annotation-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.proxyTest.statics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.proxyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.proxyTest.Test" />
+      <option name="METHOD_NAME" value="test01_static_proxy_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.test01_static_proxy_test" />
         <item itemvalue="Application.HelloTest" />
       </list>
     </recent_temporary>
@@ -95,9 +117,17 @@
       <option name="presentableId" value="Default" />
       <updated>1693299418034</updated>
       <workItem from="1693299419585" duration="6538000" />
-      <workItem from="1693358620194" duration="2699000" />
-      <workItem from="1693409345228" duration="307000" />
+      <workItem from="1693358620194" duration="6620000" />
+      <workItem from="1693446634945" duration="5746000" />
     </task>
+    <task id="LOCAL-00001" summary="添加mysql、druid、jdbcTemplate、resource依赖；修改gitignore文件">
+      <created>1693377091635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693377091635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +143,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加mysql、druid、jdbcTemplate、resource依赖；修改gitignore文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加mysql、druid、jdbcTemplate、resource依赖；修改gitignore文件" />
   </component>
 </project>
